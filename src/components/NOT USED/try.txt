@@ -1,0 +1,79 @@
+const fields = [
+    {
+        icon: <Twitter style={{ color: `#1DA1F2` }} />,
+
+    },
+    {
+        icon: <HomeRounded />,
+        name: "Home",
+        flag: false
+    },
+    {
+        icon: <TagIcon />,
+        name: "Explore"
+    },
+    {
+        icon: <NotificationsNoneOutlinedIcon />,
+        name: "Notification"
+    },
+    {
+        icon: <MailOutline />,
+        name: "Messages"
+    },
+    {
+        icon: <BookmarkBorder />,
+        name: "Bookmark"
+    },
+    {
+        icon: <ListAltOutlined />,
+        name: "List"
+    },
+    {
+        icon: <PersonOutline />,
+        name: "Profile"
+    },
+    {
+        icon: <MoreHorizOutlined />,
+        name: "More"
+    }
+]
+
+
+
+
+
+<div className="sidenavbar">
+                {/* icon */}
+                {/* <Twitter/> */}
+
+                {fields.map((navfields, index) => {
+                    return <SidenavbarItem {...navfields} key={index} />
+                })}
+
+                {/* <Sidenavbarfield Icon={HomeRounded} text="Home"/> */}
+
+                {/* <Sidenavbarfield Icon={HomeRounded} text="Explore"/>
+                <Sidenavbarfield Icon={HomeRounded} text="Notifications"/>
+                <Sidenavbarfield Icon={HomeRounded} text="Messages"/>
+                <Sidenavbarfield Icon={HomeRounded} text="Bookmarks"/>
+                <Sidenavbarfield Icon={HomeRounded} text="List"/>
+                <Sidenavbarfield Icon={HomeRounded} text="Profile"/>
+                <Sidenavbarfield Icon={HomeRounded} text="More"/> */}
+
+                {/* option */}
+                {/* option */}
+                {/* option */}
+                {/* option */}
+                {/* option */}
+                {/* option */}
+
+                {/* button */}
+                <Button className="tweetbutton" variant="contained" disableElevation fullWidth style={{
+                    borderRadius: 50,
+                    marginTop: 20,
+                    padding: 10,
+                    textTransform: 'none',
+                    backgroundColor: `#1DA1F2`,
+                    '&:hover': { backgroundColor: `#000000` }
+                }}> Tweet </Button>
+            </div>

@@ -1,0 +1,48 @@
+body{
+    padding: 0%;
+}
+.loginpage {
+    display: flex;
+    height: 100%;
+}
+
+.loginimage {
+    flex: 0.55;
+    background-image: url(../assets/banner.png);
+}
+
+.tweeticon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-light-gray);
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.logincontent {
+    flex: 0.45;
+}
+
+.tweetbutton {
+    border-radius: 50px !important;
+    background-color: var(--primary-blue) !important;
+    text-transform: none !important;
+    float: none !important;
+    width: 100%;
+}
+
+.sign-btns {
+    width: 50%;
+}
+ 
+.signin-up {
+    width: 100% !important;
+    border-radius: 50px !important;
+    border: 1px solid var(--light-gray) !important;
+    text-transform: none !important;
+}
